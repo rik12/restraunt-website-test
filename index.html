@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Restaurant Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#discounts">Discounts</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <h2>Welcome to Restaurant Name</h2>
+                <p>Experience the best dining experience with us.</p>
+                <a href="#menu" class="btn">Explore Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/600x400?text=Dish+1" alt="Dish 1">
+                    <h3>Dish 1</h3>
+                    <p>A delicious description of Dish 1.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/600x400?text=Dish+2" alt="Dish 2">
+                    <h3>Dish 2</h3>
+                    <p>A delicious description of Dish 2.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <img src="https://via.placeholder.com/400x400?text=Chef" alt="Chef">
+                <div class="about-text">
+                    <p>Learn more about our story and the team behind Restaurant Name. Our chef, John Doe, has over 20 years of experience in the culinary industry and is dedicated to providing exceptional dining experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-items">
+                <img src="https://via.placeholder.com/600x400?text=Gallery+1" alt="Gallery Image 1">
+                <img src="https://via.placeholder.com/600x400?text=Gallery+2" alt="Gallery Image 2">
+                <img src="https://via.placeholder.com/600x400?text=Gallery+3" alt="Gallery Image 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="discounts" class="discounts">
+        <div class="container">
+            <h2>Latest Discounts</h2>
+            <p>Sign up for our newsletter to get the latest discounts and offers!</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Find us or get in touch.</p>
+            <div class="contact-info">
+                <p>Address: 123 Main Street, City, Country</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@restaurantname.com</p>
+                <p>Follow us on <a href="https://www.instagram.com/yourrestaurant" target="_blank">Instagram</a></p>
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Restaurant Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
